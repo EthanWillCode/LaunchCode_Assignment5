@@ -99,7 +99,7 @@ function formSubmission(document, pilot, copilot, fuelLevel, cargoMass) {
             cargoStatus.innerHTML = "4. Enter cargo mass"
         } else if(vCargoMass === "Not a Number"){
             allStatus[3] = false;
-            cargoStatus.innerHTML = `3. ${cargoMass} is not a valid entry`
+            cargoStatus.innerHTML = `4. ${cargoMass} is not a valid entry`
             alert("Please enter a number!")
         } else {
             allStatus[3] = false;
